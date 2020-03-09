@@ -1,0 +1,8 @@
+Broadband/adsl
+Alarm
+Garage
+Central heating
+Cable/Satellite
+Parking
+Double glazed
+Garden

@@ -1,0 +1,6 @@
+Condition: New
+Size: 38ft x 13ft
+Ref: 67 Riverdale
+Bedrooms: 2 Double Bedroom
+Pitch Fee: £250
+EPC Exempt

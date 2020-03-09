@@ -1,0 +1,8 @@
+Detached Corner property
+Cloakroom/Wc
+Sitting Room/Dining Room
+Kitchen/Breakfast Room
+Lounge
+En-Suite
+Bathroom
+Garden

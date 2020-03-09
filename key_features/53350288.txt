@@ -1,0 +1,6 @@
+Entrance
+Lounge Diner
+Wc
+Kitchen Diner
+Bathroom
+Rear Garden
