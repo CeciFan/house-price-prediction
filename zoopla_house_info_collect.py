@@ -241,13 +241,13 @@ if __name__ == '__main__':
     # derbyshire
     # lincolnshire
 
-    with open("data_uk_nottinghamshire.csv", "w") as csvfile:
+    with open("data_uk_derbyshire.csv", "w") as csvfile:
 
         writer = csv.writer(csvfile)
         writer.writerow(["url", "address", "price", "size", "average", "bedroom-number", "bathroom-number", "reception-number"])
 
-        for i in range(1, 186):
-            url = 'https://www.zoopla.co.uk/for-sale/property/nottinghamshire/?identifier=nottinghamshire&pagesize=25&q=NOTTINGHAMSHIRE&search_source=refine&radius=0&pn=' + str(i)
+        for i in range(1, 183):
+            url = 'https://www.zoopla.co.uk/for-sale/property/derbyshire/?identifier=derbyshire&pagesize=25&q=DERBYSHIRE&search_source=refine&radius=0&pn=' + str(i)
             weblist = webspider(url)
 
             if not weblist:

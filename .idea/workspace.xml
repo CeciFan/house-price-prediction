@@ -1,29 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4571306-75ba-4a16-8576-71d092f1244b" name="Default Changelist" comment="" />
+    <list default="true" id="f4571306-75ba-4a16-8576-71d092f1244b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/psyyf3_house_price_prediction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/psyyf3_house_price_prediction.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_uk_nottinghamshire.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_learning_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/deep_learning_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/floorplan/floorplan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/floorplan/floorplan.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/key_features_Lincolnshire.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/key_features_derbyshire.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/key_features_nottinghamshire.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zoopla_house_info_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/zoopla_house_info_collect.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="house_price_prediction" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/key_features_collect.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deep_learning_models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="135">
+              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -31,11 +38,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/text_preprocessing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="-27">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_total_dl.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -49,14 +68,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/house_info_collection.py" />
         <option value="$PROJECT_DIR$/key_features_collect.py" />
-        <option value="$PROJECT_DIR$/deep_learning_models.py" />
         <option value="$PROJECT_DIR$/text_processing.py" />
         <option value="$PROJECT_DIR$/zoopla_house_info_collect.py" />
+        <option value="$PROJECT_DIR$/text_preprocessing.py" />
+        <option value="$PROJECT_DIR$/deep_learning_models.py" />
       </list>
     </option>
   </component>
@@ -67,21 +90,33 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="23" />
-    <option name="width" value="1240" />
-    <option name="height" value="777" />
+    <option name="x" value="80" />
+    <option name="y" value="281" />
+    <option name="width" value="1232" />
+    <option name="height" value="774" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="house_price_prediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house_price_prediction" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -100,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.key_features_collect">
+  <component name="RunManager" selected="Python.text_preprocessing">
     <configuration name="house_info_collection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="psyyf3_house_price_prediction" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,6 +180,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="text_preprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="psyyf3_house_price_prediction" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text_preprocessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="zoopla_house_info_collect" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="psyyf3_house_price_prediction" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,8 +226,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.key_features_collect" />
+        <item itemvalue="Python.text_preprocessing" />
         <item itemvalue="Python.zoopla_house_info_collect" />
+        <item itemvalue="Python.key_features_collect" />
         <item itemvalue="Python.house_info_collection" />
       </list>
     </recent_temporary>
@@ -190,21 +248,24 @@
       <workItem from="1583762497079" duration="151000" />
       <workItem from="1583762669345" duration="14090000" />
       <workItem from="1583797703855" duration="84000" />
+      <workItem from="1583841747334" duration="3620000" />
+      <workItem from="1583858379812" duration="10821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19868000" />
+    <option name="totallyTimeSpent" value="34309000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="23" width="1240" height="777" extended-state="0" />
+    <frame x="44" y="100" width="1232" height="774" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22871453" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8545455" visible="true" weight="0.17394958" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.14545454" side_tool="true" visible="true" weight="0.17394958" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31532848" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27419356" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -214,11 +275,11 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32991204" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.14744146" />
       <window_info anchor="right" id="R Graphics" order="4" weight="0.32945737" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -229,8 +290,11 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/psyyf3_house_price_prediction$zoopla_house_info_collect.coverage" NAME="zoopla_house_info_collect Coverage Results" MODIFIED="1583774267706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/house_price_prediction$key_features_collect.coverage" NAME="key_features_collect Coverage Results" MODIFIED="1583842003031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/psyyf3_house_price_prediction$key_features_collect.coverage" NAME="key_features_collect Coverage Results" MODIFIED="1583794258929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/house_price_prediction$text_preprocessing.coverage" NAME="text_preprocessing Coverage Results" MODIFIED="1583927699264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/psyyf3_house_price_prediction$house_info_collection.coverage" NAME="house_info_collection Coverage Results" MODIFIED="1583763165212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/house_price_prediction$zoopla_house_info_collect.coverage" NAME="zoopla_house_info_collect Coverage Results" MODIFIED="1583858525725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../house_price_prediction_deep_learning/data_processing.py" />
@@ -246,67 +310,68 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data_uk_nottingham.csv" />
-    <entry file="file://$PROJECT_DIR$/data_uk_nottinghamshire.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+    <entry file="file://$PROJECT_DIR$/data_uk_nottinghamshire.csv" />
+    <entry file="file://$PROJECT_DIR$/key_features_nottinghamshire.csv" />
+    <entry file="file://$PROJECT_DIR$/key_features_Lincolnshire.csv" />
+    <entry file="file://$PROJECT_DIR$/key_features_derbyshire.csv" />
+    <entry file="file://$PROJECT_DIR$/data_uk_derbyshire.csv" />
+    <entry file="file://$PROJECT_DIR$/key_features_collect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/key_features_nottinghamshire.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-56261" />
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/key_features_derbyshire.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-55931" />
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/key_features/47015167.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/zoopla_house_info_collect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3765">
-          <caret line="251" lean-forward="true" selection-start-line="251" selection-end-line="251" />
+        <state relative-caret-position="608">
+          <caret line="238" selection-start-line="238" selection-end-line="238" selection-end-column="26" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/key_features_Lincolnshire.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-73471" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/data_total_dl copy.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/key_features_collect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deep_learning_models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/data.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="65" lean-forward="true" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/text_preprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="-27">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_total_dl.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

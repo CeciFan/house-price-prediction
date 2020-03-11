@@ -1,4 +1,5 @@
 import tensorflow as tf
+import pandas as pd
 from keras.models import Sequential, Model, load_model
 from keras.layers import Dense, Dropout, GRU,CuDNNGRU,Input, LSTM, Embedding, Bidirectional
 from keras.layers import Flatten, Conv1D, MaxPooling1D, GlobalMaxPooling1D, TimeDistributed, BatchNormalization
@@ -8,12 +9,12 @@ from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras import backend as K
 
-
 #sess_config.gpu_options.allow_growth = True
 from keras.backend.tensorflow_backend import set_session
 config = tf.ConfigProto()
 config.gpu_options.allow_growth = True
 set_session(tf.Session(config=config))
+
 from sklearn.metrics import roc_auc_score
 from keras.utils import np_utils,plot_model, multi_gpu_model
 from IPython.display import SVG
@@ -24,55 +25,22 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.preprocessing import StandardScaler
 
+
+# Machine Learning Models
+# 1. Preprocess dataframe
+# 2. Load Word Embeddings
+# 3. Train Models
+# 4. Model Evaluation
+# 5. Continue Training for More Epochs
+
 #### Define number of words, and embedding dimensions
-max_words = 34603
-embed_dim = 100
-
-
-def load_embeddings(vec_file):
-    print("Loading Glove Model")
-    f = open(vec_file, 'r')
-    model = {}
-    for line in f:
-        splitLine = line.split()
-        word = splitLine[0]
-        embedding = np.array([float(val) for val in splitLine[1:]])
-        model[word] = embedding
-    print("Done. {} words loaded!".format(len(model)))
-    return model
-
-
-def tokenize_and_pad(docs, max_words=max_words):
-    global t
-    t = Tokenizer()
-    t.fit_on_texts(docs)
-    docs = pad_sequences(sequences=t.texts_to_sequences(docs), maxlen=max_words, padding='post')
-    global vocab_size
-    vocab_size = len(t.word_index) + 1
-
-    return docs
-
-
-def oversample(X, docs, y):
-    # Get number of rows with imbalanced class
-    target = y.sum().idxmax()
-    n = y[target].sum()
-    # identify imbalanced targets
-    imbalanced = y.drop(target, axis=1)
-    # For each target, create a dataframe of randomly sampled rows, append to list
-    append_list = [y.loc[y[col] == 1].sample(n=n - y[col].sum(), replace=True, random_state=20) for col in
-                   imbalanced.columns]
-    append_list.append(y)
-    y = pd.concat(append_list, axis=0)
-    # match y indexes on other inputs
-    X = X.loc[y.index]
-    docs = pd.DataFrame(docs_train, index=y_train.index).loc[y.index]
-    assert (y.index.all() == X.index.all() == docs.index.all())
-    return X, docs.values, y
+max_words = 25
+embed_dim = 25
 
 
 def build_model(output_classes, architecture, aux_shape=aux_shape, vocab_size=vocab_size, embed_dim=embed_dim,
                 embedding_matrix=embedding_matrix, max_seq_len=max_words):
+
     with tf.device('/cpu:0'):
         main_input = Input(shape=(max_seq_len,), name='doc_input')
         main = Embedding(input_dim=vocab_size,
@@ -149,3 +117,25 @@ def gen():
         yield [docs_train[:32], X_train[:32]], y_train[:32]
         print('generator yielded a batch %d' % idx)
         idx += 1
+
+
+if __name__ == '__main__':
+    df = pd.read_csv("data_total_dl.csv")
+
+    # Separate into X and Y
+    cols = ['size', 'average', 'bedroom-number', 'bathroom-number', 'reception-number']
+    X = df[cols]
+    docs = df['word_vectors']
+    y = df['price']
+
+    # Get Dummies
+    X = pd.get_dummies(columns=['GICS Sector'], prefix="sector", data=X)
+    y = pd.get_dummies(columns=['signal'], data=y)
+
+    aux_shape = len(X.columns)
+
+    # Split into train and test data
+    X_train, X_test, y_train, y_test, docs_train, docs_test = train_test_split(X, y, docs,
+                                                                               stratify=y,
+                                                                               test_size=0.3,
+                                                                               random_state=20)
