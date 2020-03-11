@@ -54,7 +54,6 @@ def combine_word_vector(words):
 if __name__ == '__main__':
     df = pd.read_csv("data_total_dl.csv")
     df = dask_tokenizer(df)
-    df.drop(['Unnamed: 0'], axis=1)
     input_text = [i for i in df['text']]
     model = Word2Vec(input_text, min_count=1, size=25, workers=3, window=3, sg=0)
     wordvectors = model.wv  # KeyedVectors Instance gets stored
