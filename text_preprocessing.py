@@ -8,7 +8,7 @@ from nltk.tokenize import word_tokenize
 wordnet_lemmatizer = WordNetLemmatizer()
 import string
 punctuations = string.punctuation
-
+from sklearn import preprocessing
 from gensim.models import Word2Vec
 
 # Text PreProcessing
@@ -56,6 +56,12 @@ if __name__ == '__main__':
     df = dask_tokenizer(df)
     input_text = [i for i in df['text']]
     model = Word2Vec(input_text, min_count=1, size=25, workers=3, window=3, sg=0)
+    model.save('./key_features_word2vec')
     wordvectors = model.wv  # KeyedVectors Instance gets stored
     df['word_vectors'] = df['text'].map(combine_word_vector)
-    df.to_csv("data_total_dl.csv")
+
+    numeric_attrs = ['size', 'average', 'bedroom-number', 'bathroom-number', 'reception-number']
+    for i in numeric_attrs:
+        scaler = preprocessing.StandardScaler()
+        df[i] = scaler.fit_transform(df[i].to_numpy().reshape(-1, 1))
+    df.to_csv("data.csv")
