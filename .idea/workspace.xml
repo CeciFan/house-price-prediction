@@ -3,15 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="f4571306-75ba-4a16-8576-71d092f1244b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_origin/data_notts.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_origin/lincoln.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_total_dl copy.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data_total_dl.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data_total_dl.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deep_learning_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/deep_learning_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_test_data/X_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/train_test_data/X_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_test_data/X_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/train_test_data/X_train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_test_data/words_test.npy" beforeDir="false" afterPath="$PROJECT_DIR$/train_test_data/words_test.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_test_data/words_train.npy" beforeDir="false" afterPath="$PROJECT_DIR$/train_test_data/words_train.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_test_data/y_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/train_test_data/y_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_test_data/y_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/train_test_data/y_train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_total_ml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_learning_models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/floorplan/floorplan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/floorplan/floorplan.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/key_features.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/key_features_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/collect_key_features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/key_features_word2vec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_preprocessing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_test_data/X_test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_test_data/X_train.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_test_data/words_test.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_test_data/words_train.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_test_data/y_test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_test_data/y_train.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zoopla_house_info_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/collect_zoopla_property_info.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,39 +30,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="house_price_prediction" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/deep_learning_models.py">
+        <entry file="file://$PROJECT_DIR$/training_early_fusion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-117">
-              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="450">
+              <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/text_preprocessing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="-4049" />
           </provider>
         </entry>
       </file>
@@ -71,12 +77,25 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/house_info_collection.py" />
-        <option value="$PROJECT_DIR$/key_features_collect.py" />
         <option value="$PROJECT_DIR$/text_processing.py" />
-        <option value="$PROJECT_DIR$/zoopla_house_info_collect.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/text_preprocessing.py" />
+        <option value="$PROJECT_DIR$/key_features_collect.py" />
+        <option value="$PROJECT_DIR$/lab2.py" />
+        <option value="$PROJECT_DIR$/train_test_data/numerical_features_model.py" />
+        <option value="$PROJECT_DIR$/early_fusion_model.py" />
         <option value="$PROJECT_DIR$/deep_learning_models.py" />
+        <option value="$PROJECT_DIR$/zoopla_house_info_collect.py" />
+        <option value="$PROJECT_DIR$/text_preprocessing.py" />
+        <option value="$PROJECT_DIR$/late_fusion_models.py" />
+        <option value="$PROJECT_DIR$/numerical_features_model.py" />
+        <option value="$PROJECT_DIR$/word2vec_model_training.py" />
+        <option value="$PROJECT_DIR$/early_fusion_models.py" />
+        <option value="$PROJECT_DIR$/training_numerical_features.py" />
+        <option value="$PROJECT_DIR$/collect_zoopla_property_info.py" />
+        <option value="$PROJECT_DIR$/collect_key_features.py" />
+        <option value="$PROJECT_DIR$/data_preparation.py" />
+        <option value="$PROJECT_DIR$/training_textual_features.py" />
+        <option value="$PROJECT_DIR$/training_early_fusion.py" />
       </list>
     </option>
   </component>
@@ -87,10 +106,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="158" />
-    <option name="y" value="31" />
-    <option name="width" value="1132" />
-    <option name="height" value="777" />
+    <option name="x" value="75" />
+    <option name="y" value="51" />
+    <option name="width" value="1717" />
+    <option name="height" value="1097" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -98,7 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,13 +126,13 @@
             </path>
             <path>
               <item name="house_price_prediction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="house_price_prediction" type="462c0819:PsiDirectoryNode" />
-              <item name="train_test_data" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -124,6 +142,14 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -137,8 +163,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.deep_learning_models">
-    <configuration name="deep_learning_models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.training_early_fusion">
+    <configuration name="collect_zoopla_property_info" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="psyyf3_house_price_prediction" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,7 +177,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_learning_models.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/collect_zoopla_property_info.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,7 +186,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="key_features_collect" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="data_preparation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="psyyf3_house_price_prediction" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,7 +199,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/key_features_collect.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_preparation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,7 +208,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="training_early_fusion" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="psyyf3_house_price_prediction" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,7 +221,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/training_early_fusion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,7 +230,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="text_preprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="training_numerical_features" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="psyyf3_house_price_prediction" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -217,7 +243,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text_preprocessing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/training_numerical_features.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,7 +252,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zoopla_house_info_collect" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="word2vec_model_training" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="psyyf3_house_price_prediction" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,7 +265,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zoopla_house_info_collect.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/training_textual_features.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,13 +276,16 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.deep_learning_models" />
-        <item itemvalue="Python.text_preprocessing" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.zoopla_house_info_collect" />
-        <item itemvalue="Python.key_features_collect" />
+        <item itemvalue="Python.training_early_fusion" />
+        <item itemvalue="Python.training_numerical_features" />
+        <item itemvalue="Python.word2vec_model_training" />
+        <item itemvalue="Python.data_preparation" />
+        <item itemvalue="Python.collect_zoopla_property_info" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -276,52 +305,88 @@
       <workItem from="1583841747334" duration="3620000" />
       <workItem from="1583858379812" duration="23011000" />
       <workItem from="1584018741157" duration="13961000" />
+      <workItem from="1584110878660" duration="25000" />
+      <workItem from="1584230243644" duration="650000" />
+      <workItem from="1584456154400" duration="28455000" />
+      <workItem from="1584635657203" duration="23372000" />
+      <workItem from="1585231836120" duration="2499000" />
+      <workItem from="1585404521578" duration="7544000" />
+      <workItem from="1585773244434" duration="3306000" />
+      <workItem from="1585842949944" duration="2452000" />
+      <workItem from="1586181435273" duration="4593000" />
+      <workItem from="1586341401803" duration="7294000" />
+      <workItem from="1586519296003" duration="78967000" />
+      <workItem from="1587408057680" duration="2118000" />
+      <workItem from="1588013116695" duration="7428000" />
+      <workItem from="1588270717867" duration="24000" />
+      <workItem from="1588355850439" duration="3400000" />
+      <workItem from="1588427143230" duration="2441000" />
+      <workItem from="1588458756165" duration="334000" />
+      <workItem from="1588521627996" duration="1533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60460000" />
+    <option name="totallyTimeSpent" value="236895000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="31" width="1132" height="777" extended-state="0" />
+    <frame x="75" y="51" width="1717" height="1097" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.62919706" visible="true" weight="0.24311927" />
-      <window_info id="Structure" order="1" sideWeight="0.3708029" side_tool="true" visible="true" weight="0.24311927" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.92139304" visible="true" weight="0.19940299" />
+      <window_info id="Structure" order="1" sideWeight="0.07860696" side_tool="true" visible="true" weight="0.19940299" />
       <window_info id="Favorites" order="2" sideWeight="0.14717741" side_tool="true" weight="0.03003003" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34306568" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.24875621" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49954915" weight="0.24378109" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.03482587" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32935324" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.15328467" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50045085" side_tool="true" weight="0.49353233" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.91343284" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.7671642" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.14744146" />
-      <window_info anchor="right" id="R Graphics" order="4" weight="0.32945737" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.76" />
+      <window_info anchor="right" id="R Graphics" order="4" weight="0.12659076" />
       <window_info anchor="right" id="R Packages" order="5" weight="0.3293578" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.066045724" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/house_price_prediction$collect_key_features.coverage" NAME="collect_key_features Coverage Results" MODIFIED="1588522177354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/psyyf3_house_price_prediction$house_info_collection.coverage" NAME="house_info_collection Coverage Results" MODIFIED="1583763165212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/house_price_prediction$late_fusion_models.coverage" NAME="late_fusion_models Coverage Results" MODIFIED="1587220598300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/house_price_prediction$training_early_fusion.coverage" NAME="training_early_fusion Coverage Results" MODIFIED="1588523041998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/house_price_prediction$data_preparation.coverage" NAME="data_preparation Coverage Results" MODIFIED="1588522666920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/psyyf3_house_price_prediction$zoopla_house_info_collect.coverage" NAME="zoopla_house_info_collect Coverage Results" MODIFIED="1583774267706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/house_price_prediction$key_features_collect.coverage" NAME="key_features_collect Coverage Results" MODIFIED="1583842003031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/house_price_prediction$collect_zoopla_property_info.coverage" NAME="collect_zoopla_property_info Coverage Results" MODIFIED="1588522196222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/house_price_prediction$training_numerical_features.coverage" NAME="training_numerical_features Coverage Results" MODIFIED="1588522934429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/house_price_prediction$key_features_collect.coverage" NAME="key_features_collect Coverage Results" MODIFIED="1584489369322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/house_price_prediction$numerical_features_model.coverage" NAME="numerical_features_model Coverage Results" MODIFIED="1587410063372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/house_price_prediction$test.coverage" NAME="test Coverage Results" MODIFIED="1583952242136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/psyyf3_house_price_prediction$key_features_collect.coverage" NAME="key_features_collect Coverage Results" MODIFIED="1583794258929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/house_price_prediction$text_preprocessing.coverage" NAME="text_preprocessing Coverage Results" MODIFIED="1584042213746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/house_price_prediction$deep_learning_models.coverage" NAME="deep_learning_models Coverage Results" MODIFIED="1584042621054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/psyyf3_house_price_prediction$house_info_collection.coverage" NAME="house_info_collection Coverage Results" MODIFIED="1583763165212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/house_price_prediction$text_preprocessing.coverage" NAME="text_preprocessing Coverage Results" MODIFIED="1587223589957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/house_price_prediction$deep_learning_models.coverage" NAME="deep_learning_models Coverage Results" MODIFIED="1588108111239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/house_price_prediction$zoopla_house_info_collect.coverage" NAME="zoopla_house_info_collect Coverage Results" MODIFIED="1583858525725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/house_price_prediction$word2vec_model_training.coverage" NAME="word2vec_model_training Coverage Results" MODIFIED="1588522905228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../house_price_prediction_deep_learning/data_processing.py" />
@@ -341,32 +406,8 @@
     <entry file="file://$PROJECT_DIR$/key_features_nottinghamshire.csv" />
     <entry file="file://$PROJECT_DIR$/key_features_Lincolnshire.csv" />
     <entry file="file://$PROJECT_DIR$/key_features_derbyshire.csv" />
-    <entry file="file://$PROJECT_DIR$/data_uk_derbyshire.csv" />
-    <entry file="file://$PROJECT_DIR$/key_features_collect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/key_features/47015167.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zoopla_house_info_collect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="238" selection-start-line="238" selection-end-line="238" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_total_dl copy.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow_core/python/framework/constant_op.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -375,12 +416,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_test_data/X_train.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/train_test_data/X_train.csv" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow_core/python/keras/backend.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -388,66 +424,183 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/train_test_data/y_train.csv" />
+    <entry file="file://$PROJECT_DIR$/train_test_data/X_test.csv" />
+    <entry file="file://$PROJECT_DIR$/train_test_data/y_test.csv" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/utils/validation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+        <state relative-caret-position="168">
+          <caret line="211" selection-start-line="211" selection-end-line="211" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/key_features_leistershire.csv" />
+    <entry file="file://$PROJECT_DIR$/data_origin/data_uk_derbyshire.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/data_uk_leistershire.csv" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/layers/cudnn_recurrent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2738">
+          <caret line="225" selection-start-line="225" selection-end-line="225" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/lab2.answers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2.py" />
+    <entry file="file://$PROJECT_DIR$/early_fusion_model.py" />
+    <entry file="file://$PROJECT_DIR$/data_total_ml.csv" />
+    <entry file="file://$PROJECT_DIR$/data.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_test_data/words_train.npy" />
+    <entry file="file://$PROJECT_DIR$/train_test_data/train_kfold2.csv" />
+    <entry file="file://$PROJECT_DIR$/train_test_data/train_kfold1.pkl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1374851" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_test_data/test_kfold1.pkl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176549" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/late_fusion_models.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pip/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data_origin/data_notts.csv" />
+    <entry file="file://$PROJECT_DIR$/data_uk_derbyshire.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/floorplan/floorplan.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_origin/data_uk_nottinghamshire.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_origin/key_features_south-yorkshire.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collect_zoopla_property_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collect_key_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_origin/key_features_Lincolnshire.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_origin/data_uk_lincolnshire.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/key_features_south-yorkshire.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data_total_dl.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-2420">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        <state relative-caret-position="135">
+          <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_test_data/y_train.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-416" />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_test_data/X_test.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_test_data/y_test.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-4049" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text_preprocessing.py">
+    <entry file="file://$PROJECT_DIR$/data_preparation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="173">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deep_learning_models.py">
+    <entry file="file://$PROJECT_DIR$/data.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_textual_features.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="1515">
+          <caret line="101" column="35" lean-forward="true" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_numerical_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_early_fusion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

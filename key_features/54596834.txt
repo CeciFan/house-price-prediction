@@ -1,0 +1,6 @@
+Entrance Hall
+Kitchen
+Dining Room
+Lounge
+Bathroom
+Outside
